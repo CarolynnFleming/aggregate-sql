@@ -3,4 +3,4 @@ SELECT
   SUM(film.length)
 FROM
   inventory
-  INNER JOIN film ON inventory.film_id = film.film_id
+  INNER JOIN film ON inventory.film_id = film.film_id;
